@@ -1,0 +1,33 @@
+body {
+  background-color: antiquewhite;
+}
+
+.game_board {
+  background-color: lightblue;
+  position: fixed;
+  left: 150px;
+  top: 150px;
+  width: 600px;
+  height: 600px;
+  border: 25px groove green;
+}
+
+#score_board {display: flex;}
+
+#level {width: 200px;}
+
+#score {width: 200px;}
+
+.newFood {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.newSnakeElement {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: darkblue;
+}
